@@ -2,7 +2,7 @@
 
 a little code to help Tony survive grad school
 
-![pic1](https://github.com/will-wright-eng/xlsx-is-not-a-database/blob/images/pic1.png)
+![pic1](https://github.com/will-wright-eng/xlsx-is-not-a-database/blob/main/images/pic1.png)
 
 ## system requirements
 
@@ -28,7 +28,7 @@ python -m pip install jupyterlab
 pip freeze > requirements.txt
 ```
 
-![pic2](https://github.com/will-wright-eng/xlsx-is-not-a-database/blob/images/pic2.png)
+![pic2](https://github.com/will-wright-eng/xlsx-is-not-a-database/blob/main/images/pic2.png)
 
 ## excel as a database :(
 
