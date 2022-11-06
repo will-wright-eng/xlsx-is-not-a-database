@@ -33,7 +33,7 @@ pip freeze > requirements.txt
 ## excel as a database :(
 
 **Bad News:** there are lots of libraries that have attempted to make it easy for python to interact with Excel files
-**Good News:** pandas is amazing and has created a solver that combines these libraries
+**Good News:** pandas is amazing and has created a wrapper that combines these libraries
 
 - [xlwt] for xls files
 - [xlsxwriter] for xlsx files if xlsxwriter is installed otherwise [openpyxl]
