@@ -1,12 +1,13 @@
 # xlsx-is-not-a-database
-a little code to help Tony survive grad school
 
+a little code to help Tony survive grad school
 
 ![pic1](https://github.com/will-wright-eng/xlsx-is-not-a-database/blob/images/pic1.png)
 
 ## system requirements
 
 `terminal`
+
 ```bash
 uname -v
 # Darwin Kernel Version 21.6.0: Wed Aug 10 14:25:27 PDT 2022; root:xnu-8020.141.5~2/RELEASE_X86_64
@@ -16,6 +17,7 @@ python3 --version
 ```
 
 ### note
+
 > ideally you would be using jupyter inside of a virtual environment so that there is less risk with dependencies drifting over time
 
 ```bash
@@ -32,6 +34,7 @@ pip freeze > requirements.txt
 
 **Bad News:** there are lots of libraries that have attempted to make it easy for python to interact with Excel files
 **Good News:** pandas is amazing and has created a solver that combines these libraries
+
 - [xlwt] for xls files
 - [xlsxwriter] for xlsx files if xlsxwriter is installed otherwise [openpyxl]
 - [odswriter] for ods files
@@ -53,11 +56,10 @@ if your only goal is *only* to write data to an Excel file then [pandas.DataFram
 
 [pandas.DataFrame.to_excel]: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_excel.html
 
-
-
 ## getting started
 
 ### setup
+
 1. create directory & files
 2. install pandas
 3. start a notebook
@@ -83,9 +85,8 @@ jupyter lab
 3. update
 4. delete
 
-
-
 ## example code
+
 *here is some code I use in production*
 
 ```python
@@ -104,8 +105,8 @@ def export_to_excel(outputs: dict, export_file_name: str, REPORT_FILE_PATH: str)
 ```
 
 - this for loop takes a dictionary input containing data and metadata -- these two operations in particular are useful:
-	- `pd.pivot_table`
-	- `df.groupby`
+  - `pd.pivot_table`
+  - `df.groupby`
 
 ```python
 for table_name, inputs in input_dict.items():

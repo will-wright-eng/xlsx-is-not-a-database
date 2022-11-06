@@ -1,5 +1,3 @@
-getting - started - script.py
-
 import os
 
 import pandas as pd
