@@ -34,10 +34,9 @@ pip freeze > requirements.txt
 
 - **Bad News:** there are lots of libraries that have attempted to make it easy for python to interact with Excel files
 - **Good News:** pandas is amazing and has created a wrapper that combines these libraries
-
-- [xlwt] for xls files
-- [xlsxwriter] for xlsx files if xlsxwriter is installed otherwise [openpyxl]
-- [odswriter] for ods files
+    - [xlwt] for xls files
+    - [xlsxwriter] for xlsx files if xlsxwriter is installed otherwise [openpyxl]
+    - [odswriter] for ods files
 
 This way you only need to understand how to use [pandas.ExcelWriter]
 
