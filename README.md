@@ -55,6 +55,8 @@ if your only goal is *only* to write data to an Excel file then [pandas.DataFram
 
 [pandas.DataFrame.to_excel]: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_excel.html
 
+![pic3](https://github.com/will-wright-eng/xlsx-is-not-a-database/blob/main/images/pic3.png)
+
 ## getting started
 
 ### setup
